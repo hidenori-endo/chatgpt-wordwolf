@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "question": "最初の質問ですか？",
+    "answers": [
+      { "text": "はい", "next": 2 },
+      { "text": "いいえ", "next": 3 }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "2つ目の質問ですか？",
+    "answers": [
+      { "text": "はい", "next": 4 },
+      { "text": "いいえ", "next": 4 }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "3つ目の質問ですか？",
+    "answers": [
+      { "text": "はい", "next": 4 },
+      { "text": "いいえ", "next": 4 }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "最後の質問ですか？",
+    "answers": [
+      { "text": "はい", "next": null },
+      { "text": "いいえ", "next": null }
+    ]
+  }
+]
